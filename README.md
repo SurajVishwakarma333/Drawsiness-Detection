@@ -196,3 +196,8 @@ Drowsiness detection is a safety technology that can prevent accidents that are 
         
      cap.release()
      cv2.destroyAllWindows()
+     
+     
+     
+     
+# That's it! 😊    
