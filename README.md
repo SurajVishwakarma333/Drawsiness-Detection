@@ -12,14 +12,14 @@ Drowsiness detection is a safety technology that can prevent accidents that are 
 • Install this all 8 library in anaconda promt before starting the project. 
 
 
-          1. pip install tensorflow
-          2. pip install tensorflow-gpu
-          3. pip install opencv-python
-          4. pip install opencv-contrib-python
-          5. pip install matplotlib
-          6. pip install numpy
-          7. pip install pygame
-          8. pip install -U pygame
+     1. pip install tensorflow
+     2. pip install tensorflow-gpu
+     3. pip install opencv-python
+     4. pip install opencv-contrib-python
+     5. pip install matplotlib
+     6. pip install numpy
+     7. pip install pygame
+     8. pip install -U pygame
                     
                     
 
@@ -27,21 +27,21 @@ Drowsiness detection is a safety technology that can prevent accidents that are 
 
 
 
-            import os
-            import shutil
-            import glob
-            from tqdm import tqdm
+     import os
+     import shutil
+     import glob
+     from tqdm import tqdm
             
-            //dividing the photos in open eyes and close eyes two different folder
+     //dividing the photos in open eyes and close eyes two different folder.
             
-            Raw_DIR=r'E:\SurajPython\eye\mrlEyes_2018_01'
-            for dirpath, dirname, filenames in os.walk(Raw_DIR):
-              for i in tqdm([f for f in filenames if f.endswith('.png')]):
-                if i.split('_')[4]=='0':
-                  shutil.copy(src=dirpath+'/'+i,dst=r'E:\SurajPython\eye\Prepared_Data\Close Eyes')
+     Raw_DIR=r'E:\SurajPython\eye\mrlEyes_2018_01'
+     for dirpath, dirname, filenames in os.walk(Raw_DIR):
+       for i in tqdm([f for f in filenames if f.endswith('.png')]):
+         if i.split('_')[4]=='0':
+           shutil.copy(src=dirpath+'/'+i,dst=r'E:\SurajPython\eye\Prepared_Data\Close Eyes')
             
-                elif i.split('_')[4]=='1':
-                  shutil.copy(src=dirpath+'/'+i,dst=r'E:\SurajPython\eye\Prepared_Data\Open Eyes')
+         elif i.split('_')[4]=='1':
+           shutil.copy(src=dirpath+'/'+i,dst=r'E:\SurajPython\eye\Prepared_Data\Open Eyes')
                   
-            //we have done and devided the photos in open eyes and close eyes two different folder
+      //we have done and devided the photos in open eyes and close eyes two different folder.
       
