@@ -38,8 +38,7 @@ Drowsiness detection is a safety technology that can prevent accidents that are 
      for dirpath, dirname, filenames in os.walk(Raw_DIR):
        for i in tqdm([f for f in filenames if f.endswith('.png')]):
          if i.split('_')[4]=='0':
-           shutil.copy(src=dirpath+'/'+i,dst=r'E:\SurajPython\eye\Prepared_Data\Close Eyes')
-            
+           shutil.copy(src=dirpath+'/'+i,dst=r'E:\SurajPython\eye\Prepared_Data\Close Eyes')    
          elif i.split('_')[4]=='1':
            shutil.copy(src=dirpath+'/'+i,dst=r'E:\SurajPython\eye\Prepared_Data\Open Eyes')
                   
