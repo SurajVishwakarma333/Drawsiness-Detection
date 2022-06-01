@@ -12,14 +12,14 @@ Drowsiness detection is a safety technology that can prevent accidents that are 
 • Install this all 8 library in anaconda promt before starting the project. 
 
 
-                    1. pip install tensorflow
-                    2. pip install tensorflow-gpu
-                    3. pip install opencv-python
-                    4. pip install opencv-contrib-python
-                    5. pip install matplotlib
-                    6. pip install numpy
-                    7. pip install pygame
-                    8. pip install -U pygame
+          1. pip install tensorflow
+          2. pip install tensorflow-gpu
+          3. pip install opencv-python
+          4. pip install opencv-contrib-python
+          5. pip install matplotlib
+          6. pip install numpy
+          7. pip install pygame
+          8. pip install -U pygame
                     
                     
 
