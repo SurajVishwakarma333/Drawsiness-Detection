@@ -25,7 +25,7 @@ Drowsiness detection is a safety technology that can prevent accidents that are 
 
 # Step 1 : Create a new ipynb(Interactive PYthon NoteBook)which means Jupyter notebook File and rename as Data Preparation.
 
-Data Preparation.IPYNB
+Data Preparation.ipynb
 
 
      import os
