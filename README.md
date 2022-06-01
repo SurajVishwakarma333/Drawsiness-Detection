@@ -23,7 +23,7 @@ Drowsiness detection is a safety technology that can prevent accidents that are 
                     
                     
 
-• Step 1 : Create new ipynb(Interactive PYthon NoteBook)which means Jupyter notebook File and rename as Data Preparation.
+# Step 1 : Create new ipynb(Interactive PYthon NoteBook)which means Jupyter notebook File and rename as Data Preparation.
 
 
 
@@ -47,7 +47,7 @@ Drowsiness detection is a safety technology that can prevent accidents that are 
       
       
       
-• Step 2 : Create new ipynb(Interactive PYthon NoteBook)which means Jupyter notebook File and rename as Model Training.
+# Step 2 : Create new ipynb(Interactive PYthon NoteBook)which means Jupyter notebook File and rename as Model Training.
       
       
       
@@ -124,7 +124,7 @@ Drowsiness detection is a safety technology that can prevent accidents that are 
  
  
  
-• Step 3 : Create new ipynb(Interactive PYthon NoteBook)which means Jupyter notebook File and rename as main.
+# Step 3 : Create new ipynb(Interactive PYthon NoteBook)which means Jupyter notebook File and rename as main.
 
 
     import cv2
